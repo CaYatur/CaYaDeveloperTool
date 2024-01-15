@@ -1,12 +1,13 @@
-MIT License
+MIT License with Restrictions
 
 Copyright (c) 2024 CaYatur
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software,
-and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+to use, copy, modify, merge, publish, distribute, and sublicense copies of the Software,
+but excluding the right to sell copies of the Software or to sublicense or permit persons
+to whom the Software is furnished to do so.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
