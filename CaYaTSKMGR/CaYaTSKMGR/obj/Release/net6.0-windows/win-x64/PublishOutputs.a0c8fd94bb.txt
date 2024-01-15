@@ -1,0 +1,2 @@
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\win-x64\CaYaTSKMGR.pdb
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\win-x64\CaYaTSKMGR.exe

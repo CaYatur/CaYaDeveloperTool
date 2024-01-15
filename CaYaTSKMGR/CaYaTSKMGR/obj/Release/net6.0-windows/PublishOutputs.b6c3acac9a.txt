@@ -1,0 +1,8 @@
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\CaYaTSKMGR.exe
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\CaYaTSKMGR.dll
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\CaYaTSKMGR.deps.json
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\CaYaTSKMGR.runtimeconfig.json
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\CaYaTSKMGR.pdb
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\System.CodeDom.dll
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\System.Management.dll
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\bin\Release\net6.0-windows\publish\runtimes\win\lib\net6.0\System.Management.dll

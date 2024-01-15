@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="CaYaDevCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CaYaDevTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CYServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

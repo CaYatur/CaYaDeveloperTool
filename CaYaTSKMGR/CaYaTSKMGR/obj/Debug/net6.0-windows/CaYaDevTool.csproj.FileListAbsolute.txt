@@ -1,0 +1,8 @@
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.csproj.AssemblyReference.cache
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaTSKMGR.Form1.resources
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.Properties.Resources.resources
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.csproj.GenerateResource.cache
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.AssemblyInfoInputs.cache
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.AssemblyInfo.cs
+C:\Users\cagan\source\repos\CaYaTSKMGR\CaYaTSKMGR\obj\Debug\net6.0-windows\CaYaDevTool.csproj.CoreCompileInputs.cache
