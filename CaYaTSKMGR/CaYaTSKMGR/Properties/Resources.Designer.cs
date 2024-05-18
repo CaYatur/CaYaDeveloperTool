@@ -63,6 +63,26 @@ namespace CaYaTSKMGR.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap ArkaPlanForm {
+            get {
+                object obj = ResourceManager.GetObject("ArkaPlanForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap BlueWallPaper5 {
+            get {
+                object obj = ResourceManager.GetObject("BlueWallPaper5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap closeviwe {
             get {
                 object obj = ResourceManager.GetObject("closeviwe", resourceCulture);
@@ -116,6 +136,36 @@ namespace CaYaTSKMGR.Properties {
         internal static System.Drawing.Bitmap RunAs_Admin {
             get {
                 object obj = ResourceManager.GetObject("RunAs Admin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap TemaBLack {
+            get {
+                object obj = ResourceManager.GetObject("TemaBLack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap TemaRainbow {
+            get {
+                object obj = ResourceManager.GetObject("TemaRainbow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap WallPaperPurple {
+            get {
+                object obj = ResourceManager.GetObject("WallPaperPurple", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
