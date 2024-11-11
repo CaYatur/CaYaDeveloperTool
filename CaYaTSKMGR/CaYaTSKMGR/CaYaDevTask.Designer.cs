@@ -54,6 +54,7 @@
             button12 = new Button();
             button13 = new Button();
             button14 = new Button();
+            button15 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -82,12 +83,17 @@
             // 
             // lstProcesses
             // 
+            lstProcesses.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstProcesses.BackColor = Color.White;
+            lstProcesses.BorderStyle = BorderStyle.None;
+            lstProcesses.ForeColor = Color.Black;
             lstProcesses.FormattingEnabled = true;
             lstProcesses.ItemHeight = 15;
             lstProcesses.Location = new Point(3, 101);
             lstProcesses.Name = "lstProcesses";
-            lstProcesses.Size = new Size(605, 679);
+            lstProcesses.Size = new Size(605, 675);
             lstProcesses.TabIndex = 3;
+            lstProcesses.SelectedIndexChanged += lstProcesses_SelectedIndexChanged_1;
             lstProcesses.KeyDown += lstProcesses_KeyDown;
             lstProcesses.MouseDoubleClick += lstProcesses_MouseDoubleClick;
             // 
@@ -115,6 +121,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = Properties.Resources.pc2;
             pictureBox2.Location = new Point(3, 14);
             pictureBox2.Name = "pictureBox2";
@@ -125,6 +132,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button2.BackColor = Color.IndianRed;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Arial Narrow", 9F, FontStyle.Bold, GraphicsUnit.Point);
@@ -134,10 +142,12 @@
             button2.TabIndex = 7;
             button2.Text = "X";
             button2.UseVisualStyleBackColor = false;
+            button2.Visible = false;
             button2.Click += button2_Click;
             // 
             // pictureBox3
             // 
+            pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.BackColor = Color.LightBlue;
             pictureBox3.Image = Properties.Resources.closeviwe1;
             pictureBox3.Location = new Point(553, 3);
@@ -146,6 +156,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox3.TabIndex = 9;
             pictureBox3.TabStop = false;
+            pictureBox3.Visible = false;
             pictureBox3.Click += pictureBox3_Click;
             // 
             // button4
@@ -182,24 +193,27 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.Transparent;
             checkBox1.Checked = true;
             checkBox1.CheckState = CheckState.Checked;
             checkBox1.ForeColor = SystemColors.ButtonFace;
             checkBox1.Location = new Point(258, 17);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(72, 19);
+            checkBox1.Size = new Size(73, 19);
             checkBox1.TabIndex = 13;
             checkBox1.Text = "TopMost";
-            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.UseVisualStyleBackColor = false;
             checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(500, 83);
             label1.Name = "label1";
-            label1.Size = new Size(108, 15);
+            label1.Size = new Size(109, 15);
             label1.TabIndex = 14;
             label1.Text = "CaYa Task Manager";
             // 
@@ -216,6 +230,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pictureBox4.BackColor = Color.Transparent;
             pictureBox4.Image = Properties.Resources.RunAs_Admin;
             pictureBox4.Location = new Point(580, 60);
             pictureBox4.Name = "pictureBox4";
@@ -227,7 +243,9 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.Coral;
             label2.Location = new Point(500, 65);
             label2.Name = "label2";
@@ -237,11 +255,15 @@
             // 
             // lstStartupApps
             // 
+            lstStartupApps.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lstStartupApps.BackColor = Color.White;
+            lstStartupApps.BorderStyle = BorderStyle.None;
+            lstStartupApps.ForeColor = Color.Black;
             lstStartupApps.FormattingEnabled = true;
             lstStartupApps.ItemHeight = 15;
             lstStartupApps.Location = new Point(3, 101);
             lstStartupApps.Name = "lstStartupApps";
-            lstStartupApps.Size = new Size(606, 679);
+            lstStartupApps.Size = new Size(605, 675);
             lstStartupApps.TabIndex = 18;
             lstStartupApps.Visible = false;
             lstStartupApps.SelectedIndexChanged += lstStartupApps_SelectedIndexChanged;
@@ -249,13 +271,14 @@
             // checkBox2
             // 
             checkBox2.AutoSize = true;
+            checkBox2.BackColor = Color.Transparent;
             checkBox2.ForeColor = SystemColors.ButtonFace;
             checkBox2.Location = new Point(302, 46);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(126, 19);
             checkBox2.TabIndex = 19;
             checkBox2.Text = "Show Startup Apps";
-            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.UseVisualStyleBackColor = false;
             checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // button8
@@ -306,6 +329,7 @@
             // 
             // button12
             // 
+            button12.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button12.BackColor = Color.FromArgb(255, 128, 128);
             button12.Location = new Point(472, 5);
             button12.Name = "button12";
@@ -317,6 +341,7 @@
             // 
             // button13
             // 
+            button13.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button13.BackColor = Color.SandyBrown;
             button13.Location = new Point(379, 5);
             button13.Name = "button13";
@@ -328,8 +353,9 @@
             // 
             // button14
             // 
+            button14.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             button14.BackColor = Color.Goldenrod;
-            button14.Location = new Point(553, 34);
+            button14.Location = new Point(553, 5);
             button14.Name = "button14";
             button14.Size = new Size(55, 23);
             button14.TabIndex = 26;
@@ -337,12 +363,26 @@
             button14.UseVisualStyleBackColor = false;
             button14.Click += button14_Click;
             // 
+            // button15
+            // 
+            button15.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button15.BackColor = Color.Tomato;
+            button15.Location = new Point(472, 31);
+            button15.Name = "button15";
+            button15.Size = new Size(136, 23);
+            button15.TabIndex = 27;
+            button15.Text = "System Watcher";
+            button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
+            // 
             // CaYaDevTask
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(613, 782);
+            Controls.Add(button15);
             Controls.Add(button14);
             Controls.Add(button13);
             Controls.Add(button12);
@@ -368,7 +408,7 @@
             Controls.Add(button1);
             Controls.Add(lstStartupApps);
             Controls.Add(lstProcesses);
-            FormBorderStyle = FormBorderStyle.None;
+            DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CaYaDevTask";
             StartPosition = FormStartPosition.CenterScreen;
@@ -376,9 +416,6 @@
             TopMost = true;
             Load += Form1_Load;
             KeyDown += Form1_KeyDown;
-            MouseDown += Form1_MouseDown;
-            MouseMove += Form1_MouseMove;
-            MouseUp += Form1_MouseUp;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -414,5 +451,6 @@
         private Button button12;
         private Button button13;
         private Button button14;
+        private Button button15;
     }
 }

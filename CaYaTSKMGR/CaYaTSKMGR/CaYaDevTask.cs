@@ -1511,7 +1511,7 @@ namespace CaYaTSKMGR
                     {
                         //foreach (var process in Process.GetProcessesByName("explorer"))
                         //{
-                            //process.Kill();
+                        //process.Kill();
                         //}
                     }
                     catch (Exception ex)
@@ -1663,7 +1663,7 @@ namespace CaYaTSKMGR
         private bool Servicesclosed = true;
         private async void button14_Click(object sender, EventArgs e)
         {
-            
+
             CYServices services = new CYServices();
 
             // FormClosed olayýna abone oluyoruz.
@@ -1692,7 +1692,7 @@ namespace CaYaTSKMGR
                     await Task.Delay(200);
                     services.TopMost = true;
                 }
-                
+
                 //MessageBox.Show(Text = "Already opened!");
                 //SetTopMost(services.Handle, true);
             }
@@ -1720,11 +1720,22 @@ namespace CaYaTSKMGR
 
         }
 
+        private void lstProcesses_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
 
+        }
 
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (!IsRunAsAdmin())
+            {
+                RunUac();
+                return; // Ýþlemi sonlandýr
+            }
 
-
-
+            CaYaSystemWatcher csw = new CaYaSystemWatcher();
+            csw.Show();
+        }
     }
 
 
